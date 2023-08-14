@@ -93,11 +93,17 @@
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="form-group">
-                        <label class="mt-2" for="StudentGender">Student Gender</label>
-                        <select name="StudentGender" class="form-control" required>
-                            <option value="Male" @if($enrollment->StudentGender == 'Male') selected @endif>Male</option>
-                            <option value="Female" @if($enrollment->StudentGender == 'Female') selected @endif>Female</option>
+                        <label class="mt-2" for="StudentEducation">Student Education</label>
+                        <select name="StudentEducation" class="form-select" id="StudentEducation" required>
+                            <option value="" selected>Select Education *</option>
+                            <option value="Primary"  {{$enrollment->StudentEducation == 'Primary'?'selected' : ' '}}>Primary</option>
+                            <option value="Middle"  {{$enrollment->StudentEducation == 'Middle'?'selected' : ' '}}>Middle</option>
+                            <option value="Matriculation"  {{$enrollment->StudentEducation == 'Matriculation'?'selected' : ' '}}>Matriculation</option>
+                            <option value="Intermediate"  {{$enrollment->StudentEducation == 'Intermediate'?'selected' : ' '}}>Intermediate</option>
+                            <option value="Bachelors"  {{$enrollment->StudentEducation == 'Bachelors'?'selected' : ' '}}>Bachelors</option>
+                            <option value="Masters"  {{$enrollment->StudentEducation == 'Masters'?'selected' : ' '}}>Masters</option>
                         </select>
+
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">

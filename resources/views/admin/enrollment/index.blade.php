@@ -44,7 +44,7 @@
                     <th>Phone</th>
                     <th>City</th>
                     <th>Email</th>
-                    <th>Gender</th>
+                    <th>Education</th>
                     <th>Mode</th>
                     <th>Option</th>
                     <th>Survey</th>
@@ -81,7 +81,7 @@
                             <td class="align-middle text-center">{{ $enrollment->StudentPhone }}</td>
                             <td class="align-middle text-center">{{ $enrollment->StudentCity }}</td>
                             <td class="align-middle text-center">{{ $enrollment->StudentEmail }}</td>
-                            <td class="align-middle text-center">{{ $enrollment->StudentGender }}</td>
+                            <td class="align-middle text-center">{{ $enrollment->StudentEducation }}</td>
                             <td class="align-middle text-center">{{ $enrollment->TrainingMode }}</td>
                             <td class="align-middle text-center">{{ $enrollment->PaymentOption }}</td>
                             <td class="align-middle text-center">{{ $enrollment->KnowAboutUs }}</td>

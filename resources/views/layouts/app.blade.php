@@ -7,16 +7,16 @@
     <title>{{ config('app.name') }}</title>
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-    <link href="{{asset('admin/assets/libs/select2/css/select2.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('admin/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css')}}" rel="stylesheet" type="text/css">
-    <link href="{{asset('admin/assets/libs/spectrum-colorpicker2/spectrum.min.css')}}" rel="stylesheet" type="text/css">
-    <link href="{{asset('admin/assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css')}}" rel="stylesheet" type="text/css">
-    <link href="{{asset('admin/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('admin/assets/libs/%40chenfengyuan/datepicker/datepicker.min.css')}}" rel="stylesheet" >
+    <link href="{{asset('assets/libs/select2/css/select2.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('assets/libs/spectrum-colorpicker2/spectrum.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/libs/%40chenfengyuan/datepicker/datepicker.min.css')}}" rel="stylesheet" >
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <link href="{{asset('admin/assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
-    <link href="{{asset('admin/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('admin/assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
 
 </head>
  <body data-sidebar="dark">
@@ -28,19 +28,19 @@
                         <div class="navbar-brand-box">
                             <a href="{{route('dashboard')}}" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="{{asset('admin/assets/img/logo/logo-head.png')}}"  alt="Ecom gladiator logo" height="35">
+                                    <img src="{{asset('assets/img/logo/logo-head.png')}}"  alt="Ecom gladiator logo" height="35">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{asset('admin/assets/img/logo/logo.png')}}"  alt="Ecom gladiator logo" class="img-fluid">
+                                    <img src="{{asset('assets/img/logo/logo.png')}}"  alt="Ecom gladiator logo" class="img-fluid">
                                 </span>
                             </a>
 
                             <a href="{{route('dashboard')}}" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="{{asset('admin/assets/img/logo/logo-head.png')}}"  alt="Ecom gladiator logo" height="35" >
+                                    <img src="{{asset('assets/img/logo/logo-head.png')}}"  alt="Ecom gladiator logo" height="35" >
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{asset('admin/assets/img/logo/logo.png')}}"  alt="Ecom gladiator logo" class="img-fluid">
+                                    <img src="{{asset('assets/img/logo/logo.png')}}"  alt="Ecom gladiator logo" class="img-fluid">
                                 </span>
                             </a>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="rounded-circle header-profile-user" src="{{asset('admin/assets/images/users/avatar-7.jpg')}}"
+                                <img class="rounded-circle header-profile-user" src="{{asset('assets/images/users/avatar-7.jpg')}}"
                                     alt="Header Avatar">
                                 <span class="d-none d-xl-inline-block ms-1" key="t-henry"> </span>
                                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
@@ -120,25 +120,25 @@
 
         <!-- JAVASCRIPT -->
 
-        <script src="{{asset('admin/assets/libs/jquery/jquery.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/metismenu/metisMenu.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/simplebar/simplebar.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/node-waves/waves.min.js')}}"></script>
+        <script src="{{asset('assets/libs/jquery/jquery.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('assets/libs/metismenu/metisMenu.min.js')}}"></script>
+        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
 
-        <script src="{{asset('admin/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
-        <script src="{{asset('admin/assets/js/pages/dashboard-blog.init.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/jquery.repeater/jquery.repeater.min.js')}}"></script>
-        <script src="{{asset('admin/assets/js/pages/form-repeater.int.js')}}"></script>
-        <script src="{{asset('admin/assets/js/app.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/select2/js/select2.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/spectrum-colorpicker2/spectrum.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/bootstrap-timepicker/js/bootstrap-timepicker.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/%40chenfengyuan/datepicker/datepicker.min.js')}}"></script>
-        <script src="{{asset('admin/assets/js/pages/form-advanced.init.js')}}"></script>
-        <script src="{{asset('admin/assets/libs/select2/js/select2.min.js')}}   "></script>
+        <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
+        <script src="{{asset('assets/js/pages/dashboard-blog.init.js')}}"></script>
+        <script src="{{asset('assets/libs/jquery.repeater/jquery.repeater.min.js')}}"></script>
+        <script src="{{asset('assets/js/pages/form-repeater.int.js')}}"></script>
+        <script src="{{asset('assets/js/app.js')}}"></script>
+        <script src="{{asset('assets/libs/select2/js/select2.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+        <script src="{{asset('assets/libs/spectrum-colorpicker2/spectrum.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap-timepicker/js/bootstrap-timepicker.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js')}}"></script>
+        <script src="{{asset('assets/libs/%40chenfengyuan/datepicker/datepicker.min.js')}}"></script>
+        <script src="{{asset('assets/js/pages/form-advanced.init.js')}}"></script>
+        <script src="{{asset('assets/libs/select2/js/select2.min.js')}}   "></script>
 </body>
 </html>

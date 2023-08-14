@@ -53,8 +53,8 @@
             <td>{{ $enrollment->StudentEmail }}</td>
         </tr>
         <tr>
-            <th>Student Gender</th>
-            <td>{{ $enrollment->StudentGender }}</td>
+            <th>Student Education</th>
+            <td>{{ $enrollment->StudentEducation }}</td>
         </tr>
         <tr>
             <th>Training Mode</th>

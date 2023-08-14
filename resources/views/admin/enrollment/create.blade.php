@@ -93,10 +93,26 @@
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="form-group">
-                        <label class="mt-2" for="StudentGender">Student Gender</label>
-                        <select name="StudentGender" class="form-control" required>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
+                        <label class="mt-2" for="StudentEducation">Student Gender</label>
+                        <select name="StudentEducation" class="form-select" id="StudentEducation" required>
+                            <option value="" selected>Select Education *</option>
+                            <option value="Primary" {{ old('StudentEducation') ? 'selected' : '' }}>
+                                Primary
+                            </option>
+                            <option value="Middle" {{ old('StudentEducation') ? 'selected' : '' }}>Middle
+                            </option>
+                            <option value="Matriculation" {{ old('StudentEducation') ? 'selected' : '' }}>
+                                Matriculation
+                            </option>
+                            <option value="Intermediate" {{ old('StudentEducation') ? 'selected' : '' }}>
+                                Intermediate
+                            </option>
+                            <option value="Bachelors" {{ old('StudentEducation') ? 'selected' : '' }}>
+                                Bachelors
+                            </option>
+                            <option value="Masters" {{ old('StudentEducation') ? 'selected' : '' }}>
+                                Masters
+                            </option>
                         </select>
                     </div>
                 </div>
